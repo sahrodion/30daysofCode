@@ -9,30 +9,55 @@ body{
 }
 
 section{
+    margin-top: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 
 .container{
     display: flex;
-    
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #c2c2c263;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 
+
+form{
+    width: 100%;
+}
+
 .form{
-    padding-top: 40px;
-    background-color: #c2c2c263;
+    display: none;
+}
+
+
+.form.active{
+    display: block;
 }
 
 
 .formgrp{
-    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+label{
+    color: white;
 }
 
 input{
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 10px;
 
 }
